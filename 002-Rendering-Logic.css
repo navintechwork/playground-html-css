@@ -1,0 +1,44 @@
+/* h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: red;
+    } */
+
+    html {
+        font-size: 16px;
+    }
+
+    section{
+        padding: 10px;
+        margin: 10px;
+        border: 8px solid aliceblue;
+    }
+
+    h3{
+        color: deeppink;
+    }
+
+    .one-ex-01 {
+        width: 150px;
+    }
+      
+    .one-ex-01 p {
+        width: 100%;
+        padding: 16px;
+        border: 2px solid;
+        /* Toggle this on and off in the devtools! */
+        /* box-sizing: border-box; */
+    }
+
+    .two-ex-01 header {
+        font-size: 2rem;
+        padding: 32px;
+        background-color: peachpuff;
+    }
+    .two-ex-01 main {
+        background: silver;
+        padding: 32px;
+    }

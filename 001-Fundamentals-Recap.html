@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="001-Fundamentals-Recap.css">
+</head>
+<body>
+    <section>
+        <h3>Media Queries</h3>
+        <div class="small-only">
+            Hello there!
+        </div>
+    </section>
+
+    <section>
+        <h3>Pseudo-classes</h3>
+
+        <h4>Hover</h4>
+        
+        <button class="btn-one">Hover over me!</button>
+
+        <h4>Focus</h4>
+
+        <button class="btn-two">Hello</button>
+        <button class="btn-two">world</button>
+        <button class="btn-two">!</button>
+
+        <h4>Checked</h4>
+
+        <h5>Pizza Toppings</h5>
+
+        <label>
+        <input type="checkbox" />
+        Avocado
+        </label>
+        <br />
+        <label>
+        <input type="checkbox" />
+        Broccoli
+        </label>
+        <br />
+        <label>
+        <input type="checkbox" />
+        Carrots
+        </label>
+    </section>
+
+    <section id="pseudo-elements">
+        <h3>Pseudo-elements</h3>
+
+        <h4>Placeholder</h4>
+
+        <label>
+            Postal Code:
+            <input
+              type="text"
+              placeholder="A1A 1A1"
+            />
+        </label>
+
+        <h4>Before and After</h4>
+
+        <h5>Example 01</h5>
+        <div class="one-ex-01">
+            <p>
+                This paragraph has little arrows!
+            </p>
+        </div>
+
+        
+
+        <h5>Example 02</h5>
+        <div class="one-ex-02">
+            <p>
+                <span class="pseudo-pseudo">→ </span>
+                This paragraph has little arrows!
+                <span class="pseudo-pseudo"> ←</span>
+            </p>
+        </div>
+        
+
+        <h5>Example 03</h5>
+        <div class="one-ex-03">
+            <p>
+                This paragraph has a decorative circle.
+            </p>
+        </div>
+
+        
+        
+    </section>
+
+    <section>
+        <h3>Combinators</h3>
+
+        <h4>Target Children and Descendant</h4>
+
+        <h5>Example 01</h5>
+        <div class="two-ex-01">
+            <nav>
+                <a href="">Home</a>
+                -
+                <a href="">Shop</a>
+            </nav>
+              
+            <p>
+                Hello world! You might be interested in reading <a href="">an article</a>!
+            </p>
+        </div>
+
+        <h5>Example 02</h5>
+        <div class="two-ex-02">
+            <nav>
+                <ul>
+                  <li>
+                    <a href="">Home</a>
+                  </li>
+                  <li>
+                    <a href="">Shop</a>
+                  </li>
+                </ul>
+             </nav>
+        </div>
+
+        <h5>Example 03</h5>
+        <div class="two-ex-03">
+            <ul class="main-list">
+                <li>Salt</li>
+                <li>Pepper</li>
+                <li>
+                  Fruits & Veg:
+                  <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Carrots</li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+
+        <h5>Example 04</h5>
+        <div class="two-ex-04">
+            <ul class="main-list">
+                <li>Salt</li>
+                <li>Pepper</li>
+                <li>
+                  Fruits & Veg:
+                  <ul>
+                    <li>Apple</li>
+                    <li>Banana</li>
+                    <li>Carrots</li>
+                  </ul>
+                </li>
+            </ul>
+        </div>
+        
+
+    </section>
+
+    <section>
+        <h3>Colors</h3>
+        <h5>Example 01</h5>
+        <div class="three-ex-01">
+            <div class="first box"></div>
+            <div class="second box"></div>
+            <div class="third box"></div>
+            <div class="fourth box"></div> 
+        </div>
+        <h5>Example 02</h5>
+        <div class="three-ex-02">
+            <p>
+                This is a paragraph with a
+                <em>highlighted section</em>.
+            </p>
+        </div>
+
+    </section>
+
+    <section>
+        <h3>Units</h3>
+        <h5>Example 01 - Pixels</h5>
+        <div class="four-ex-01">
+            <p>
+                This paragraph has a relative amount of bottom padding!
+            </p>
+        </div>
+        <h5>Example 02 - ems</h5>
+        <div class="four-ex-02">
+            <p>
+                <span style="font-size: 1em">
+                  This
+                </span>
+                <span style="font-size: 0.8em">
+                  sentence
+                </span>
+                <span style="font-size: 0.64em">
+                  gets
+                </span>
+                <span style="font-size: 0.5em">
+                  quieter
+                </span>
+                <span style="font-size: 0.4em">
+                  and
+                </span>
+                <span style="font-size: 0.32em">
+                  quieter
+                </span>
+            </p>
+        </div>
+        <h5>Example 03 - rems</h5>
+        <div class="four-ex-03">
+            <h1>What's a staple? The list expands.</h1>
+            <h2>Jan. 1, 1991</h2>
+            <p>Conventional agricultural wisdom holds that only a handful of crop species -- as few as 7 and no more than 30,
+                 depending on different assessments -- account for most of the plant food consumed by humanity. 
+                 But a new study says more than 100 species and possibly as many as 200 are important food sources.
+            </p>
+        </div>
+        <h5>Example 04 - percentage</h5>
+        <div class="four-ex-04">
+            <div class="box">
+                <div class="child"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <h3>Typography</h3>
+        <h5>Example 01</h5>
+        <div class="five-ex-01">
+            <p class="left">
+                This paragraph uses the default “left” alignment.
+            </p>
+            <p class="right">
+                This one, meanwhile, pops over to the other side! It flips the default behaviour.
+            </p>
+            <p class="center">
+                Finally, we end in the middle.
+            </p>
+        </div>
+        <h5>Example 02</h5>
+        <div class="five-ex-02">
+            <h3>About Us</h3>
+            <p>
+            The Lumen Group was founded in 1984 in Berlin, Germany.
+            </p>
+        </div>
+
+    </section>
+
+    <section>
+        <h3>Units</h3>
+        <h5>Example 01</h5>
+        <div class="five-ex-01">
+            
+        </div>
+        <h5>Example 02</h5>
+        <div class="five-ex-02">
+            
+        </div>
+        <h5>Example 03</h5>
+        <div class="five-ex-03">
+            
+        </div>
+        <h5>Example 04</h5>
+        <div class="five-ex-04">
+            
+        </div>
+
+    </section>
+
+
+</body>
+</html>
